@@ -42,7 +42,23 @@
     font-size: 20px;
     border-radius: 30px;
     background-color: #ffffff1d;
+  
+    animation: dtu 1s forwards;
 }
+
+@keyframes dtu {
+    0%{
+    opacity: 0;
+    transform: translateY(50px);
+    }
+    100%{
+   opacity: 1;
+    transform: translateY(0px);
+    }
+    
+}
+
+
 .hello::before{
     content: '';
     display: block;
@@ -65,6 +81,12 @@
  
 
 }
+
+.custom-class{
+       animation: dtu 1s forwards;
+}
+
+
 .job-name{
       color: #ffffff85;
 
@@ -76,7 +98,7 @@
     color: #ffffff85;
     font-size: 20px;
     font-weight: 100;
-
+   animation: dtu 1s forwards;
 }
 
 
@@ -89,7 +111,7 @@
 
 .skills{
     display: flex;
-
+   animation: dtu 1s forwards;
     gap: 30px;
 
 }
@@ -127,7 +149,7 @@
     /* justify-content: center; */
     align-items: center;
     gap: 30px;    
-
+       animation: dtu 1s forwards;
 }
 .buttons button{
 
