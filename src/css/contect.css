@@ -1,0 +1,150 @@
+.contact{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.contact-container{
+
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44vh;
+
+
+}
+
+
+
+.contact-card{
+
+display: flex;
+flex-direction: column;
+justify-content: start;
+
+padding: 30PX;
+
+gap: 40px;
+border: 1px solid #ffffff3d;;
+border-radius: 20px;
+background-color: black;
+width: 900px;
+height: 300px;
+color:#fff;
+
+
+
+}
+
+
+.contact-hello{
+position: relative;
+    margin-bottom: 90px;
+}
+
+.contact-hello::after{
+content: '';
+display: block;
+height: 1px;
+background-color: #ffffff3d;;
+width: 100%;
+position: absolute;
+margin-top: 50px;
+
+}
+
+.contact-hello-dark{
+    position: relative;
+    margin-bottom: 90px;
+}
+.contact-hello-dark::after{
+content: '';
+display: block;
+height: 1px;
+background-color: #000000;;
+width: 100%;
+position: absolute;
+margin-top: 50px;
+
+}
+
+.contact-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 50px;
+    display: inline-block;
+    justify-content: center;
+    width: 40px;
+    /* width: 30px; */
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ffffff3d;;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+
+
+.contact-links a:hover{
+background-color: #fff;
+transform: rotate(15deg);
+color: black;
+
+box-shadow: 0 0 15px #fff;
+
+}
+
+
+
+
+.contact-links-dark  a{
+    background-color: #ffffff;
+  
+    color: rgb(0, 0, 0);
+
+
+
+    border: 1px solid #000000;;
+
+}
+
+.contact-links-dark  a:hover{
+    background-color: #000000;
+    transform: rotate(15deg);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px #000000;
+}
+
+@media screen and (max-width: 750px) {
+.contact-card,.contact-card-dark{
+    padding-top: 0px;
+    width: 350px;
+    height: 210px;
+    gap:10px; 
+}
+
+.contact-hello,.contact-hello-dark{
+position: relative;
+    margin-bottom: 10px;
+}
+.contact-hello::after,.contact-hello-dark::after{
+
+margin-top: 0px;
+
+}
+
+.contact-links a,
+.contact-links-dark a{
+
+    margin-right: 20px;
+
+}
+
+
+}

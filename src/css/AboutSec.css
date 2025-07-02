@@ -1,0 +1,274 @@
+.About-section{
+
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+
+
+
+}
+
+.About-container{
+
+    display: flex;
+    max-width: 1400px;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 30px;
+    padding: 200px;
+
+}
+.box{
+
+    width: 50%;
+    height: 450px;
+    
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0px 30px 20px 30px;
+    border-radius: 20px;
+
+   background-color: #00000004;
+   border: 1px solid #ffffff3d;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 10px #ffffff33;
+
+
+
+
+
+}
+
+.box p{
+    font-size: large;
+}
+
+.left-box{
+}
+
+.boxs{
+    display: flex;
+
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+
+}
+
+.experience-container{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.right-box{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    
+    
+}
+
+.ex{
+    width: 100%;
+    display:flex ;
+    flex-direction: column;
+    font-weight: 300;
+    color: #ffffff82;
+    gap: 0;
+}
+
+
+.bar{
+    position: relative;
+    margin: 0;
+    border: 1px solid #e4e4e48a;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.bar-65::before
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 65%;
+    background-color: #fff;
+   border-radius: 30px;
+}
+
+.bar-80::before
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 80%;
+    background-color: #fff;
+   border-radius: 30px;
+}
+.bar-70::before
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 70%;
+    background-color: #fff;
+   border-radius: 30px;
+}
+
+
+
+
+
+.bar-65::after{
+    position: absolute;
+    top:-30px;
+    right: 0;
+    content: '65%';
+ 
+
+}
+.bar-80::after{
+    position: absolute;
+    top:-30px;
+    right: 0;
+    content: '80%';
+ 
+
+}
+.bar-70::after{
+    position: absolute;
+    top:-30px;
+    right: 0;
+    content: '70%';
+ 
+
+}
+
+.bardark2{
+    position: relative;
+    margin: 0;
+    border: 1px solid #434343d1;
+    height: 10px;
+    border-radius: 70px;
+}
+.bardark2::before
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 70%;
+    border-radius: 30px;
+    background-color: #000000;
+
+}
+.bardark2::after{
+    position: absolute;
+    top:-30px;
+    right: 0;
+    content: '70%';
+    color: #000000;
+ 
+}
+
+
+.bardark1{
+    position: relative;
+    margin: 0;
+    border: 1px solid #434343d1;
+    height: 10px;
+    border-radius: 70px;
+}
+.bardark1::before
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 65%;
+    border-radius: 30px;
+    background-color: #000000;
+
+}
+.bardark1::after{
+    position: absolute;
+    top:-30px;
+    right: 0;
+    content: '65%';
+    color: #000000;
+ 
+}
+
+
+.bardark3{
+    position: relative;
+    margin: 0;
+    border: 1px solid #434343d1;
+    height: 10px;
+    border-radius: 70px;
+}
+.bardark3::before
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 80%;
+    border-radius: 30px;
+    background-color: #000000;
+
+}
+.bardark3::after{
+    position: absolute;
+    top:-30px;
+    right: 0;
+    content: '80%';
+    color: #000000;
+ 
+}
+
+
+
+@media screen and (max-width: 750px) {
+.boxs{
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+.box{
+    width: 300px;
+    font-size: 10px;
+    overflow: hidden;
+}
+.About-section{
+    margin-top: 100px;
+    width: 100%;
+    min-height: 100vh;
+}
+.left-box p{
+    font-size:13px;
+}
+   
+}

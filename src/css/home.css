@@ -1,0 +1,372 @@
+
+.home-page{
+
+
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    min-height: 80vh;
+    flex-direction: column;
+
+}
+
+.home-container{
+    position: relative;
+
+    display: flex;
+    padding: 150px 200px;
+    max-width: 1500px;
+    gap: 200px;
+
+
+}
+.right-side{
+    width: 50%;
+   
+
+
+
+}
+
+.hello{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #ffffff1d;
+}
+.hello::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 90px;
+    background-color: #fff;
+    position: absolute;
+    left: 13px;
+    transition: .4s ease;
+    animation: dotanimation infinite 1s alternate; 
+}
+@keyframes dotanimation {
+    0%{
+        background-color: #ffffff27;
+    }
+    100%{
+        background-color: #fff;
+    }
+ 
+
+}
+.job-name{
+      color: #ffffff85;
+
+      font-weight: 300;
+      font-size: 35px;
+        margin: 25px 0;
+}
+.discription{
+    color: #ffffff85;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+
+.home-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    display: flex;
+
+    gap: 30px;
+
+}
+
+
+.skills div{
+     position: relative;
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+    align-items: center;
+    transition: .3s ease;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #ffffff1d;
+   border: 1px solid #ffffff3d;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 10px #ffffff33;
+
+}
+.skills div:hover{
+    border: 1px solid #fff;
+    box-shadow: 0 0 8px #fff;
+       background-color: #ffffff7d;
+}
+
+
+.buttons{
+ 
+    display: flex;
+    margin-top: 50px;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;    
+
+}
+.buttons button{
+
+  background-color: #ffffff1d;
+
+  width: 150px;
+  height: 60px;
+  color: #fff;
+    border-radius: 20px;
+    border: none;
+
+    cursor: pointer;
+
+
+}
+.buttons button:first-child{
+
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+      border: 1px solid #0000003d;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 10px #ffffff33;
+}
+
+.buttons button:last-child{
+    position: relative;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+      border: 1px solid #ffffff3d;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 10px #ffffff33;
+    overflow: hidden;
+}
+.buttons button:last-child::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: #ffffff1d;
+    transition: 0.3s ease;
+    
+
+}
+.buttons button:last-child:hover::before {
+  width: 100%;
+}
+
+.left-side{
+
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.left-container{
+position: relative;
+width: 450px;
+border: 5px solid #ffffff45;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5px;
+border-radius: 50px;
+animation: borderanimi 1s alternate infinite; 
+}
+@keyframes borderanimi {
+
+    0%{
+        border: 8px solid #ffffff1b;
+    }
+    100%{
+        border: 8px solid #ffffff3a;
+    }
+    
+}
+
+.left-containe-dark{
+    position: relative;
+width: 450px;
+border: 5px solid #00000045;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5px;
+border-radius: 50px;
+animation: borderanimidark 1s alternate infinite; 
+}
+
+@keyframes borderanimidark {
+
+    0%{
+        border: 8px solid #0303031b;
+    }
+    100%{
+        border: 8px solid #3a3a3a3a;
+    }
+    
+}
+.left-side .left-container img{ 
+
+    width: 450px;
+    border-radius: 50px;
+    filter: grayscale(100%);
+
+    transition: .3s ease;
+    animation: blurimg .9s forwards;
+}
+
+@keyframes blurimg {
+
+    0%{
+       filter: blur(15px);
+    }
+    100%{
+        filter: blur(0px);
+       
+    }
+    
+}
+
+
+.left-container::after{
+    position: absolute;
+    content: "</>";
+    width: 100px;
+    height: 100px;
+    background-color:  #5e5c5c90;
+    bottom: -40px;
+    right: -40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 600;
+   background-color: #53535342;
+   border: 1px solid #ffffff3d;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 10px #ffffff33;
+
+
+
+
+
+}
+
+
+.go{
+    position: relative;
+    /* bottom: 20px; */
+    /* left:50%; */
+    margin-top: 0px;
+    bottom: 50px;
+      transform: translateY(-30px)
+
+
+
+}
+
+.go1{
+
+  
+    font-size: larger;
+     color: #ffffff95;
+    animation: downup infinite alternate .5s;
+
+
+}
+
+@keyframes downup{
+
+        0%{
+            transform: translateY(-15px);
+               
+        }
+    100%{
+        transform: translateY(1px);
+          
+        }
+
+}
+
+
+    @media screen and (max-width: 750px) {
+          .home-container {
+            flex-direction: column-reverse;
+            padding: 50px 20px;
+            gap: 50px;
+          }
+          .job-name{
+
+            font-size: 25px;
+                margin: 10px 0;
+        }
+        .discription{
+
+            font-size: 15px;
+            
+
+        }
+     
+          
+          .right-side, .left-side {
+            width: 100%;
+          }
+          
+          .left-container {
+            width: 300px;
+          }
+          
+          .left-side .left-container img {
+           
+            width: 200px;
+            height: 200px;
+          }
+          .left-container{
+             margin-top: 35px;
+            width: 200px;
+            height: 200px;
+          }
+          
+          .skills {
+            flex-wrap: wrap;
+            justify-content: center;
+          }
+          
+          .buttons {
+            justify-content: center;
+            flex-wrap: wrap;
+          }
+        }
