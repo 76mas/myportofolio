@@ -71,7 +71,7 @@ export default function Projects(){
             <div className="card-container">
 
                 <div className="card-img">
-                    <img src={e.imgsrc} alt="" />
+                    <img src={e.imgsrc} alt="yup" />
                 </div>
 
                 <div className="card-info">

@@ -27,13 +27,13 @@ export default function Contact(){
 
                 <div className={theme==="sun"?"contact-links":"contact-links contact-links-dark"}>
 
-                    <a   target="_blank"  href="https://www.linkedin.com/in/mahmoud-abaas-104ab9257/"><FiLinkedin/></a>
+                    <a  rel="noreferrer" target="_blank"  href="https://www.linkedin.com/in/mahmoud-abaas-104ab9257/"><FiLinkedin/></a>
 
-                    <a   target="_blank"  href="https://github.com/76mas"><FiGithub/></a>
+                    <a  rel="noreferrer" target="_blank"  href="https://github.com/76mas"><FiGithub/></a>
                     
-                    <a  href="https://wa.me/07727488537" target="_blank" rel="noreferrer noopener"><FaWhatsapp /></a>
+                    <a  rel="noreferrer" href="https://wa.me/07727488537" target="_blank" rel="noreferrer noopener"><FaWhatsapp /></a>
 
-                    <a  href="mailto:mhmwdbas310@gmail.com" target="_blank" rel="noreferrer noopener">
+                    <a rel="noreferrer" href="mailto:mhmwdbas310@gmail.com" target="_blank" rel="noreferrer noopener">
   <MdOutlineMail />
 </a>
 

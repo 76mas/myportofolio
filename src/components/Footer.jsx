@@ -14,7 +14,7 @@ return(<footer>
 
                 <div className="icon-home">
 
-                     <a href="#home"><FaChevronUp className={theme==="sun"?"up":"up-dark"}/></a>
+                     <a rel="noreferrer" href="#home"><FaChevronUp className={theme==="sun"?"up":"up-dark"}/></a>
                      
                 </div>
         </div>
